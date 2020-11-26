@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+/* ========================CLASS GENERAL================ */
+.flex{
+  display: flex;
+}
+
+
+.column{
+  flex-direction: column;
+}
+.row{
+  flex-direction: row;
+}
+
+
+.j_center{
+  justify-content: center;
+}
+.j_around{
+  justify-content: space-around;
+}
+.j_between{
+  justify-content: space-between;
+}
+
+.a_center{
+  align-items: center;
+}
+/* =========================END OF GENERAL CLASS============== */
+
+
+
+header{
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(124, 106, 167);
+  margin: 0px;
+  padding: 0px;
+}
+
+#nav_header{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#ul_header{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#ul_header li{
+  list-style-type: none;
+}
+
+#ul_header li a{
+  text-decoration: none;
+  color: rgb(134, 103, 9);
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+}
+
+#ul_header li a:hover{
+  color: black;
+  font-weight: bold;
+}

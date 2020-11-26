@@ -1,0 +1,19 @@
+html{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+/* =========================MAIN================== */
+#main_index{
+  /* background: url('../ressources/grue.jpg') no-repeat center center; */
+  /* background-size: cover; */
+  width: 100%;
+  height: 90vh;
+}
