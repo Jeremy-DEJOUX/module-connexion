@@ -40,32 +40,32 @@ footer{
   padding: 0px;
 }
 
-#nav_header{
+#nav_footer{
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
 }
 
-#ul_header{
+#ul_footer{
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
 }
 
-#ul_header li{
+#ul_footer li{
   list-style-type: none;
 }
 
-#ul_header li a{
+#ul_footer li a{
   text-decoration: none;
-  color: rgb(134, 103, 9);
+  color: white;
   font-family: 'Righteous', cursive;
   font-size: 20px;
 }
 
-#ul_header li a:hover{
+#ul_footer li a:hover{
   color: black;
   font-weight: bold;
 }

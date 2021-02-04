@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Staatliches', cursive;
+}
+
+body{
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+}
+
+/* ==================================MAIN INSCRITPION=================================== */
+#main_inscription{
+    width: 100%;
+    height: 90vh;
+}
+/* ===================================FORMULAIRE INSCRIPTION========================= */
+#formulaire_inscriptions{
+  height: 100%;
+    padding: 5vh;
+    background-color: rgba(20,20,20,0.8);
+    color: white;
+}
+
+#formulaire_inscriptions label{
+    margin-bottom: 5px;
+}

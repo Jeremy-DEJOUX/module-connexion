@@ -1,0 +1,12 @@
+#main_connexion{
+    width: 100%;
+    height: 90vh;
+}
+/* ===================================FORMULAIRE CONNEXION========================= */
+#connexion_formulaire{
+    width: 20%;
+    height: 30vh;
+    padding: 3vh;
+    background-color: rgba(20,20,20,0.8);
+    color: white;
+}

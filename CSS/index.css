@@ -1,7 +1,3 @@
-*{
-  margin: 0px;
-  padding: 0px;
-}
 
 html{
   margin: 0px;
@@ -129,4 +125,33 @@ body{
   width: 100%;
   height: 90%;
   border-radius: 5%;
+}
+
+
+#Newsletter{
+  width: 100%;
+  height: 50vh;
+}
+
+#Newsletter p{
+  font-size: 30px;
+  font-family: 'Oswald';
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+#Newsletter_button{
+  padding: 1vh;
+  background-color: rgba(20, 20, 20, 0.8);
+  color: white;
+  font-family: 'Oswald';
+  border-radius: 30%;
+  border: none;
+  font-size: 20px;
+}
+
+#Newsletter_button:hover{
+  background-color: black;
+  font-weight: bold;
 }

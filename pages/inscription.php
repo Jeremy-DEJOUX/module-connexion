@@ -20,11 +20,11 @@ if (isset($_POST['inscription'])) {
    <body>
      <?php require_once('header.php') ?>
 
-     <main>
+     <main id="main_inscription">
        <?php if (isset($error)) {
          // echo $error;
        } ?>
-       <form class="flex column j_around a_center" action="" method="post">
+       <form class="flex column j_around a_center" action="" method="post" id="formulaire_inscriptions">
          <label for="pseudo">Pseudo:</label>
          <input type="text" name="pseudo" value="">
 
